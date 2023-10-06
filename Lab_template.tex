@@ -1,0 +1,91 @@
+\documentclass{homework}
+
+\author{Denzel Bautista Rodriguez 202210461}
+\class{CS3051: Computer Architecture}
+\date{\today}
+\title{Lab x: X}
+\address{CS-UTEC}
+\usepackage{verbatim}
+\usepackage{float}
+\DeclareUnicodeCharacter{2295}{\oplus}
+
+\graphicspath{{./media/}}
+
+\begin{document} \maketitle
+
+\begin{comment} % PLANTILLA PREGUNTAS
+%---------------------------------------------------------
+\question \textbf{Pregunta 1}
+
+\begin{enumerate} 
+\renewcommand{\labelenumi}{\alph{enumi})} 
+
+\item Item a
+
+\item Item b
+
+\item Item c
+
+\item Item d
+
+\item Item e
+
+\item Item f
+
+\item Item g
+
+\end{enumerate}
+\end{comment}
+
+\begin{comment} % EXTRAS
+%---------------------------------------------------------
+% TABLA DE ANALISIS Y SINTESIS
+
+\begin{center}
+\begin{tabular}{ c|c|c } 
+ \hline
+  & Analysis & Synthesis \\\hline 
+ Cells &  2 &  6 \\ 
+ Ports &  4 &  4 \\ 
+ Nets &  4 &  8 \\ 
+ \hline
+\end{tabular}
+\end{center}
+%---------------------------------------------------------
+%---------------------------------------------------------
+% INSERTAR ARCHIVO VERILOG
+
+\lstinputlisting[language=Verilog, caption={Simple template for Verilog}, label=example]{code/codigo.v}
+%---------------------------------------------------------
+%---------------------------------------------------------
+% INSERTAR IMAGEN
+
+\begin{figure}[H] \centering \includegraphics[width=0.5\textwidth]{media/imagen.png}
+\label{fig:universe} \end{figure}
+%---------------------------------------------------------
+%---------------------------------------------------------
+% INSERTAR CODIGO VERILOG
+
+\begin{lstlisting}
+//This is my verilog code
+
+module holamundo(a,b,y);
+    input a;
+    input b;
+    output y;
+
+    y=a & b;
+
+endmodule
+
+
+\end{lstlisting}
+%---------------------------------------------------------
+\end{comment}
+
+
+%------------------------PREGUNTAS------------------------
+
+
+
+\end{document}
